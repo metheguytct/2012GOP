@@ -1,0 +1,167 @@
+campaignTrail_temp.election_json = [
+    {
+        "model": "campaign_trail.election",
+        "pk": 3,
+        "fields": {
+            "year": 2012,
+            "summary": "<p>As 2008 approaches it seems evermore likely the Clintons will be back in the White House.</p> <ul><li>Hillary Clinton is a former first lady and the current junior senator from New York. She is running on a theme of stability and nostalgia for the Clinton years.</li><li>John McCain is a maverick in his own party and will hope to wrangle the future of America away from Clinton.</li></ul>\n\nWith the Iraq War turning sour and with the economies of the world plummeting Americans are looking for a return to the stability of the 90s. ",
+            "image_url": "https://i.imgur.com/vH7fVHk.png",
+            "winning_electoral_vote_number": 270,
+            "advisor_url": "https://i.imgur.com/R70tLY9.png",
+            "recommended_reading": "<div style='overflow-y:scroll;height:320px;'><h3 style='margin-top:</h3> 1.5em;'><h2>Canon Results</h2><p><img src='https://i.imgur.com/cqRxSjI.png' width='675px'><p>Hey all, thanks for playing my 1st mod! I had it around for a while but finally got the motivation to release it. Hope y’all enjoyed and have a good one!<br> <i>2008 I’m With Her!</i></img></div>",
+            "has_visits": 1,
+            "no_electoral_majority_image": "https://www.jetsimon.com/public/static/images/2012-no-majority.jpg",
+            "creator": "Dan Bryan",
+            "display_year": "2008"
+        }
+    }
+]
+
+campaignTrail_temp.candidate_json = [
+    {
+        "model": "campaign_trail.candidate",
+        "pk": 200,
+        "fields": {
+            "first_name": "Hillary",
+            "last_name": "Clinton",
+            "election": 3,
+            "party": "Democrat",
+            "state": "New York",
+            "priority": 1,
+            "description": "<i><b> 'I’m in. And I’m in to win.'</i> </b>\n<p>Hillary Clinton entered the primaries as the frontrunner and came out on top, having defeated Obama and Edwards. She has held office as a senator from New York for the past seven years as well as being a former first lady. If she wins this campaign she will become the first female president in the nations history.</p><p>Clinton has been described as a Centrist Democrat closely aligning with her husband's Third Way Democrats. To win this campaign she has to make amends with the progressives she battled in the primaries while keeping her moderate image to win over a big tent coalition. Clinton starts with a lead, but anything can happen...</p>",
+            "color_hex": "#3b4e9b",
+            "secondary_color_hex": "#90C0FF",
+		"recommended_reading": "Thanks for playing my 1st mod. <br><img src='https://i.imgur.com/2imYIcj.png' width='615px'></img> <br>Here are the canon results",
+            "is_active": 1,
+            "image_url": "https://i.imgur.com/ukAc3GO.png",
+            "electoral_victory_message": "<h3>CLINTON DEFEATS MCCAIN! IN A NAILBITER! THE FIRST FEMALE TO BECOME PRESIDENT!</h3><p>That is what the headlines say. In spite of a hard-fought challenge, you have won the Presidency.</p><p>You have become the first female president in American history. It was closer then most expected but nevertheless you still came out on top.</p>\n<p>Because of this close victory you may not be able to pass your more liberal legislation, however you have been known to work across the aisle to get deals done.</p>\n<p>Anyways get ready to move into the white house and hopefully you'll win again in another four years.</p>",
+            "electoral_loss_message": "<h3>MCCAIN DEFEATS CLINTON! 12 YEARS OF REPUBLICANS!</h3><p>That's what the headlines read. Wow... What went wrong Hillary, maybe America wasn't ready for a female president? Maybe you handled the recession wrong? Was it the Obama wing?\n</p>Well anyway, your presidential prospects are probably over, no one likes a loser. Obama looks set to win the next primaries and the election in a landslide.</p>\n</p>Get ready to make a concession call that you weren't expected to make...</p>",
+            "no_electoral_majority_message": "<h3>ELECTORAL COLLEGE DEADLOCKED!.</h3><p>No candidate achieved a majority of the electoral votes, marking the first time this has happened since 1824. Fortunately for you, the majority of U.S. states have Democrat controlled congressional delegations, and they will cast their votes for you.</p><p>Given the incredibly close nature of this many Republicans, and even some Democrats, may be unwilling to work with you. Welp anyway, Get ready for an interesting four years... </p>",
+            "description_as_running_mate": null,
+            "candidate_score": 1,
+            "running_mate": false
+        }
+    },
+    {
+        "model": "campaign_trail.candidate",
+        "pk": 345,
+        "fields": {
+            "first_name": "Evan",
+            "last_name": "Bayh",
+            "election": 3,
+            "party": "Democrat",
+            "state": "Indiana",
+            "priority": 7,
+            "description": "<p>V.P. </p>",
+            "color_hex": "#0000FF",
+            "secondary_color_hex": "#90C0FF",
+            "is_active": 0,
+            "image_url": "https://i.imgur.com/q3Wryzw.png",
+            "electoral_victory_message": "n/a",
+            "electoral_loss_message": "n/a",
+            "no_electoral_majority_message": "n/a",
+            "description_as_running_mate": "<i><b> 'I’d say there’s only one reason to go into public life and that’s to help people.'</i> </b>\n<p>Evan Bayh is the current Junior Senator from Indiana and the son of famed politician Birch Bayh. He also served as the governor of Indiana for eight years. Throughout his years in politics he has garnered a reputation as a moderate to conservative Democrat. </p><p>He is loved by the establishment and hawkish members of the party. He co-sponsored the Iraq War resolution which has quickly turned into a liability. His selection would further solidify your moderate image and his connection to the 90s may bring that nostalgic feeling back to the limelight.</p>",
+            "candidate_score": 0,
+            "running_mate": true
+        }
+    },
+    {
+        "model": "campaign_trail.candidate",
+        "pk": 332,
+        "fields": {
+            "first_name": "Tim",
+            "last_name": "Kaine",
+            "election": 3,
+            "party": "Democrat",
+            "state": "Virgina",
+            "priority": 1,
+            "description": "<p>Put description here</p>",
+            "color_hex": "#0000FF",
+            "secondary_color_hex": null,
+            "is_active": 0,
+            "image_url": "https://i.imgur.com/sN6JUv4.png",
+            "electoral_victory_message": "This guy wins!",
+            "electoral_loss_message": "This guy loses!",
+            "no_electoral_majority_message": "We all win?",
+            "description_as_running_mate": "<b> 'NOT PLAYABLE'</b> <i><b> 'If we put our faith into action, we can move mountains.'</i> </b>\n\n<p>\nTim Kaine is the current governor of Virginia, a state shifting to the Democratic collumn. He is also known for his past as a catholic missionary and would help to court the religious voters that your husband won over in his two landslides. \n</p><p> He offers a moderate view to an already moderate ticket and would offer little to the left wing of the party. Kaine is also fluent in both Spanish and English and could help in winning over Hispanics. Picking him would help you in Virginia and North Carolina, two swing states, while also bringing back the religious voters of the 90s.\n",
+            "candidate_score": 1,
+            "running_mate": true
+        }
+    },
+    {
+        "model": "campaign_trail.candidate",
+        "pk": 201,
+        "fields": {
+            "first_name": "John",
+            "last_name": "McCain",
+            "election": 3,
+            "party": "Republican",
+            "state": "Arizona",
+            "priority": 1,
+            "description": "<p>Put description here</p>",
+            "color_hex": "#c02a2a",
+            "secondary_color_hex": null,
+            "is_active": 0,
+            "image_url": "https://i.imgur.com/0ZUKVqP.png",
+            "electoral_victory_message": "This guy wins!",
+            "electoral_loss_message": "This guy loses!",
+            "no_electoral_majority_message": "We all win?",
+            "description_as_running_mate": null,
+            "candidate_score": 1,
+            "running_mate": false
+        }
+    },
+    {
+        "model": "campaign_trail.candidate",
+        "pk": 202,
+        "fields": {
+            "first_name": " ",
+            "last_name": "Barr/Others",
+            "election": 3,
+            "party": "N/A",
+            "state": "N/A",
+            "priority": 1,
+            "description": "<p>Put description here</p>",
+            "color_hex": "#a600ff",
+            "secondary_color_hex": null,
+            "is_active": 0,
+            "image_url": "https://www.jetsimon.com/public/candidateexample.png",
+            "electoral_victory_message": "This guy wins!",
+            "electoral_loss_message": "This guy loses!",
+            "no_electoral_majority_message": "We all win?",
+            "description_as_running_mate": null,
+            "candidate_score": 1,
+            "running_mate": false
+        }
+    },
+    {
+        "model": "campaign_trail.candidate",
+        "pk": 203,
+        "fields": {
+            "first_name": "Ralph",
+            "last_name": "Nader",
+            "election": 3,
+            "party": "Green",
+            "state": "Connecticut",
+            "priority": 1,
+            "description": "<p>Put description here</p>",
+            "color_hex": "#18cd24",
+            "secondary_color_hex": null,
+            "is_active": 0,
+            "image_url": "https://www.jetsimon.com/public/candidateexample.png",
+            "electoral_victory_message": "This guy wins!",
+            "electoral_loss_message": "This guy loses!",
+            "no_electoral_majority_message": "We all win?",
+            "description_as_running_mate": null,
+            "candidate_score": 1,
+            "running_mate": false
+        }
+    }
+]
+
+}
+
+//#endcode
+
+
+
